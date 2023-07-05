@@ -1,0 +1,33 @@
+body{
+   
+}
+.primary-background{
+    background:#3d5afe!important;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#email-label{
+    display: block;
+    position: absolute;
+    bottom: 479px;
+    left: 16px;
+    color: #777;
+    font-size: 18px;
+    transition: bottom 0.3s;
+    
+}
+
+#emailText{
+    position: absolute;
+    top: 100%;
+    left: 2px;
+    font-size: 16px;
+    font-weight: 400;
+    color: red;
+    transition: top 0.5s;
+}
